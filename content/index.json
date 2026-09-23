@@ -13,6 +13,13 @@
       "level": "B1",
       "image": "",
       "file": "clinical-intake-leg-pain.json"
+    },
+    {
+      "title": "Patient Check-In",
+      "domain": "clinical",
+      "level": "A2",
+      "image": "",
+      "file": "patient-check-in.json"
     }
   ]
 }

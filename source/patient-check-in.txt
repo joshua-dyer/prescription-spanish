@@ -1,0 +1,13 @@
+title: Patient Check-In
+domain: clinical
+level: A2
+image: 
+---
+Recepcionista: Buenos días. :: Good morning.
+Paciente: Buenos días. Tengo una cita a las diez. :: Good morning. I have an appointment at ten.
+Recepcionista: Perfecto. ¿Me puede dar su nombre completo? :: Perfect. Can you give me your full name?
+Paciente: Sí, claro. Me llamo Ana López. :: Yes, of course. My name is Ana López.
+Recepcionista: Gracias. Por favor, {firme aquí|sign here}. :: Thank you. Please sign here.
+Paciente: Claro, aquí tiene. :: Sure, here you go.
+Recepcionista: Puede tomar asiento. La enfermera vendrá en un momento. :: You can have a seat. The nurse will be with you in a moment.
+Paciente: Muchas gracias. :: Thank you very much.

@@ -1,0 +1,308 @@
+{
+  "title": "Patient Check-In",
+  "domain": "clinical",
+  "level": "A2",
+  "image": "",
+  "lines": [
+    {
+      "speaker": "Recepcionista",
+      "translation": "Good morning.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Buenos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "días",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Good morning. I have an appointment at ten.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Buenos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "días",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Tengo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "una",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "cita",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "a",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "las",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "diez",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Recepcionista",
+      "translation": "Perfect. Can you give me your full name?",
+      "words": [
+        {
+          "leading": "",
+          "text": "Perfecto",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "¿",
+          "text": "Me",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "puede",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "dar",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "su",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "nombre",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "completo",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Yes, of course. My name is Ana López.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Sí",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "claro",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Me",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "llamo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Ana",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "López",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Recepcionista",
+      "translation": "Thank you. Please sign here.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Gracias",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Por",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "favor",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "firme aquí",
+          "trailing": "",
+          "translation": "sign here"
+        },
+        {
+          "leading": "",
+          "text": "",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Sure, here you go.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Claro",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "aquí",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tiene",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Recepcionista",
+      "translation": "You can have a seat. The nurse will be with you in a moment.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Puede",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tomar",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "asiento",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "La",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "enfermera",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "vendrá",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "en",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "un",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "momento",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Thank you very much.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Muchas",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "gracias",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    }
+  ]
+}
