@@ -1,0 +1,476 @@
+{
+  "title": "Clinical Intake - Leg Pain",
+  "domain": "clinical",
+  "level": "B1",
+  "image": "",
+  "lines": [
+    {
+      "speaker": "Joshua",
+      "translation": "Hello, my name is Joshua.  I will perform your ultrasound today.  Please go to room number 2.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Hola",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "me",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "llamo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Joshua",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Hoy",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "le",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "realizaré",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "una",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "ecografía",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Por",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "favor",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "vaya",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "a",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "sala",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "número",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "2",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Hello.  I am sorry I am so slow, but my leg hurts.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Hola",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Disculpe",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "que",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "sea",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tan",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "lenta",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "pero",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "me",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "duele",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "pierna",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Joshua",
+      "translation": "No need to apologize, take your time.  Let me know how I can help you.",
+      "words": [
+        {
+          "leading": "",
+          "text": "No",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tiene",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "que",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "disculparse",
+          "trailing": ";",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tómese",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "su",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tiempo",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Dígame",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "cómo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "puedo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "ayudarla",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Thank you for waiting.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Gracias",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "por",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "esperar",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Joshua",
+      "translation": "Now tell me, which leg is hurting?",
+      "words": [
+        {
+          "leading": "",
+          "text": "Ahora",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "dígame",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "¿",
+          "text": "qué",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "pierna",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "le",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "duele",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "It is my right leg.  It hurts most in the calf.",
+      "words": [
+        {
+          "leading": "",
+          "text": "La",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "pierna",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "derecha",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Me",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "duele",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "más",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "en",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "pantorrilla",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Joshua",
+      "translation": "How long has it been this way?",
+      "words": [
+        {
+          "leading": "¿",
+          "text": "Cuánto",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tiempo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "lleva",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "así",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "About a week.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Aproximadamente",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "una",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "semana",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Joshua",
+      "translation": "Okay, let's take a look.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Está",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "bien",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "vamos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "a",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "examinarla",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    }
+  ]
+}

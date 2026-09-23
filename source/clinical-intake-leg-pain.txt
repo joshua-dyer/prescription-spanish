@@ -1,0 +1,15 @@
+title: Clinical Intake - Leg Pain
+domain: clinical
+level: B1
+image:
+---
+
+Joshua: Hola, me llamo Joshua. Hoy le realizaré una ecografía. Por favor, vaya a la sala número 2. :: Hello, my name is Joshua.  I will perform your ultrasound today.  Please go to room number 2.
+Paciente: Hola. Disculpe que sea tan lenta, pero me duele la pierna. :: Hello.  I am sorry I am so slow, but my leg hurts.
+Joshua: No tiene que disculparse; tómese su tiempo. Dígame cómo puedo ayudarla. :: No need to apologize, take your time.  Let me know how I can help you.
+Paciente: Gracias por esperar. :: Thank you for waiting.
+Joshua: Ahora dígame, ¿qué pierna le duele? :: Now tell me, which leg is hurting?
+Paciente: La pierna derecha. Me duele más en la pantorrilla. :: It is my right leg.  It hurts most in the calf.
+Joshua: ¿Cuánto tiempo lleva así? :: How long has it been this way?
+Paciente: Aproximadamente una semana. :: About a week.
+Joshua: Está bien, vamos a examinarla. :: Okay, let's take a look.

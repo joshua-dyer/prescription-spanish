@@ -6,6 +6,13 @@
       "level": "B1",
       "image": "",
       "file": "dialogue-test.json"
+    },
+    {
+      "title": "Clinical Intake - Leg Pain",
+      "domain": "clinical",
+      "level": "B1",
+      "image": "",
+      "file": "clinical-intake-leg-pain.json"
     }
   ]
 }

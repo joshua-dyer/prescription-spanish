@@ -104,7 +104,9 @@
     Paste a source file's contents on the left, click Generate, then copy the story
     JSON into <code>content/&lt;file&gt;.json</code> and paste the manifest entry into
     the <code>entries</code> array in <code>content/index.json</code>. Nothing is
-    written to disk automatically.
+    written to disk automatically. The header (<code>title</code>/<code>domain</code>/
+    <code>level</code>/<code>image</code>) must end with a line containing just
+    <code>---</code> before the story lines begin.
   </p>
 
   <div class="layout">
@@ -114,6 +116,7 @@
 domain: ...
 level: ...
 image:
+---
 
 Line of Spanish text. :: English translation."></textarea>
       <div class="actions">
@@ -194,7 +197,11 @@ Line of Spanish text. :: English translation."></textarea>
   function parseLine(rawLine, lineNumber, errors) {
     const idx = rawLine.indexOf('::');
     if (idx === -1) {
-      errors.push(`Line ${lineNumber}: missing "::" translation separator — skipped.`);
+      errors.push(
+        `Line ${lineNumber}: missing "::" translation separator — skipped. If this looks ` +
+        `like part of the sentence above, you likely have a stray line break in the middle ` +
+        `of that sentence (an accidental Enter press) — rejoin it with the previous line.`
+      );
       return null;
     }
     const spanishPart = rawLine.slice(0, idx).trim();
@@ -228,22 +235,65 @@ Line of Spanish text. :: English translation."></textarea>
       .replace(/^-+|-+$/g, '');
   }
 
+  const INVISIBLE_BREAK_CHARS = [
+    { char: '\u000B', name: 'vertical tab (a "soft" line break, often pasted from Word)' },
+    { char: '\u000C', name: 'form feed character' },
+    { char: ' ', name: 'Unicode line separator (a "soft" line break, often pasted from Google Docs)' },
+    { char: ' ', name: 'Unicode paragraph separator' },
+  ];
+
+  // Word/Google Docs "soft" line breaks (Shift+Enter) don't paste as a real \n,
+  // so they'd otherwise sit invisibly inside what looks like one line and quietly
+  // corrupt word splitting. Flag them loudly instead of guessing.
+  function scanForInvisibleBreaks(allLines, errors) {
+    return allLines.map((line, idx) => {
+      let cleaned = line;
+      INVISIBLE_BREAK_CHARS.forEach(({ char, name }) => {
+        if (cleaned.includes(char)) {
+          errors.push(
+            `Line ${idx + 1}: contains a hidden ${name}. Delete it and, if it was meant to ` +
+            `be a line break, press Enter for a real one instead — left in place it can ` +
+            `silently break word splitting.`
+          );
+          cleaned = cleaned.split(char).join(' ');
+        }
+      });
+      return cleaned;
+    });
+  }
+
   function parseSource(raw) {
     const errors = [];
-    const allLines = raw.replace(/\r\n/g, '\n').split('\n');
+    const allLines = scanForInvisibleBreaks(
+      raw.replace(/\r\n/g, '\n').replace(/\r/g, '\n').split('\n'),
+      errors
+    );
 
-    let i = 0;
     const meta = { title: '', domain: '', level: '', image: '' };
-    while (i < allLines.length && allLines[i].trim() !== '') {
-      const line = allLines[i];
+    const sepIndex = allLines.findIndex((line) => line.trim() === '---');
+
+    if (sepIndex === -1) {
+      errors.push('No "---" separator found to end header.');
+      return {
+        story: { title: '', domain: '', level: '', image: '', lines: [] },
+        manifestEntry: { title: '', domain: '', level: '', image: '', file: 'untitled.json' },
+        errors,
+        file: 'untitled.json',
+      };
+    }
+
+    for (let h = 0; h < sepIndex; h++) {
+      const line = allLines[h];
+      if (line.trim() === '') continue; // stray blank lines inside the header are harmless now
       const colonIdx = line.indexOf(':');
       if (colonIdx !== -1) {
         const key = line.slice(0, colonIdx).trim().toLowerCase();
         const value = line.slice(colonIdx + 1).trim();
         if (key in meta) meta[key] = value;
       }
-      i++;
     }
+
+    let i = sepIndex + 1;
     while (i < allLines.length && allLines[i].trim() === '') i++;
 
     if (!meta.title) errors.push('Missing "title:" in header.');
