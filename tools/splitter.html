@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Source Splitter</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f6f5f2;
+    --panel: #ffffff;
+    --border: #d8d5ce;
+    --text: #2b2a27;
+    --muted: #6b6862;
+    --accent: #4a6fa5;
+    --error: #a5464a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2rem;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  h1 { font-size: 1.4rem; margin: 0 0 .25rem; }
+  p.hint { color: var(--muted); margin: 0 0 1.5rem; max-width: 60ch; }
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: 1fr; }
+  }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  .panel h2 {
+    font-size: .95rem;
+    margin: 0 0 .5rem;
+    color: var(--muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+  }
+  textarea {
+    width: 100%;
+    font-family: "Cascadia Code", Consolas, monospace;
+    font-size: .85rem;
+    line-height: 1.5;
+    padding: .75rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    resize: vertical;
+    background: #fdfdfc;
+    color: var(--text);
+  }
+  #source { height: 380px; }
+  .output textarea { height: 220px; }
+  .output + .output { margin-top: 1rem; }
+  button {
+    font: inherit;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    padding: .5rem 1rem;
+  }
+  button.primary {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+    font-weight: 600;
+  }
+  .actions { margin-top: 1rem; }
+  .output-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: .35rem;
+  }
+  .output-head .path {
+    font-family: monospace;
+    color: var(--muted);
+    font-size: .8rem;
+  }
+  .errors {
+    margin-top: 1rem;
+    color: var(--error);
+    font-size: .85rem;
+    white-space: pre-wrap;
+  }
+  .copy-btn { font-size: .8rem; padding: .3rem .6rem; }
+</style>
+</head>
+<body>
+  <h1>Source Splitter</h1>
+  <p class="hint">
+    Paste a source file's contents on the left, click Generate, then copy the story
+    JSON into <code>content/&lt;file&gt;.json</code> and paste the manifest entry into
+    the <code>entries</code> array in <code>content/index.json</code>. Nothing is
+    written to disk automatically.
+  </p>
+
+  <div class="layout">
+    <div class="panel">
+      <h2>Source text</h2>
+      <textarea id="source" spellcheck="false" placeholder="title: ...
+domain: ...
+level: ...
+image:
+
+Line of Spanish text. :: English translation."></textarea>
+      <div class="actions">
+        <button class="primary" id="generate">Generate</button>
+      </div>
+      <div class="errors" id="errors"></div>
+    </div>
+
+    <div>
+      <div class="panel output">
+        <div class="output-head">
+          <h2>Story JSON</h2>
+          <span class="path" id="story-path">content/&lt;file&gt;.json</span>
+        </div>
+        <textarea id="story-output" readonly spellcheck="false"></textarea>
+        <div class="actions">
+          <button class="copy-btn" data-target="story-output">Copy story JSON</button>
+        </div>
+      </div>
+
+      <div class="panel output">
+        <div class="output-head">
+          <h2>Manifest entry</h2>
+          <span class="path">paste into content/index.json → entries[]</span>
+        </div>
+        <textarea id="manifest-output" readonly spellcheck="false"></textarea>
+        <div class="actions">
+          <button class="copy-btn" data-target="manifest-output">Copy manifest entry</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+(function () {
+  const LEADING_CHARS = '¿¡"\'“(«';
+  const TRAILING_CHARS = '.,;:!?"\'”)»…';
+
+  function splitPunctuation(raw) {
+    let leading = '';
+    let trailing = '';
+    let text = raw;
+    while (text.length && LEADING_CHARS.includes(text[0])) {
+      leading += text[0];
+      text = text.slice(1);
+    }
+    while (text.length && TRAILING_CHARS.includes(text[text.length - 1])) {
+      trailing = text[text.length - 1] + trailing;
+      text = text.slice(0, -1);
+    }
+    return { leading, text, trailing };
+  }
+
+  function splitPlainWords(segment) {
+    return segment.split(/\s+/).filter(Boolean).map((w) => ({ raw: w, translation: null }));
+  }
+
+  function tokenizeSentence(text) {
+    const tokens = [];
+    const bracketRe = /\{([^|}]+)\|([^}]+)\}/g;
+    let lastIndex = 0;
+    let m;
+    while ((m = bracketRe.exec(text)) !== null) {
+      const plain = text.slice(lastIndex, m.index);
+      tokens.push(...splitPlainWords(plain));
+      tokens.push({ raw: m[1].trim(), translation: m[2].trim() });
+      lastIndex = bracketRe.lastIndex;
+    }
+    tokens.push(...splitPlainWords(text.slice(lastIndex)));
+    return tokens.map((t) => {
+      const { leading, text, trailing } = splitPunctuation(t.raw);
+      return { leading, text, trailing, translation: t.translation };
+    });
+  }
+
+  const SPEAKER_RE = /^([\p{L}][\p{L} .'-]{0,39}):\s(.*)$/u;
+
+  function parseLine(rawLine, lineNumber, errors) {
+    const idx = rawLine.indexOf('::');
+    if (idx === -1) {
+      errors.push(`Line ${lineNumber}: missing "::" translation separator — skipped.`);
+      return null;
+    }
+    const spanishPart = rawLine.slice(0, idx).trim();
+    const translation = rawLine.slice(idx + 2).trim();
+    if (!spanishPart) {
+      errors.push(`Line ${lineNumber}: no Spanish text before "::" — skipped.`);
+      return null;
+    }
+    if (!translation) {
+      errors.push(`Line ${lineNumber}: no English translation after "::" — skipped.`);
+      return null;
+    }
+
+    const speakerMatch = spanishPart.match(SPEAKER_RE);
+    const speaker = speakerMatch ? speakerMatch[1].trim() : null;
+    const sentenceText = speakerMatch ? speakerMatch[2] : spanishPart;
+
+    return {
+      speaker,
+      translation,
+      words: tokenizeSentence(sentenceText),
+    };
+  }
+
+  function slugify(title) {
+    return title
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[̀-ͯ]/g, '')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  }
+
+  function parseSource(raw) {
+    const errors = [];
+    const allLines = raw.replace(/\r\n/g, '\n').split('\n');
+
+    let i = 0;
+    const meta = { title: '', domain: '', level: '', image: '' };
+    while (i < allLines.length && allLines[i].trim() !== '') {
+      const line = allLines[i];
+      const colonIdx = line.indexOf(':');
+      if (colonIdx !== -1) {
+        const key = line.slice(0, colonIdx).trim().toLowerCase();
+        const value = line.slice(colonIdx + 1).trim();
+        if (key in meta) meta[key] = value;
+      }
+      i++;
+    }
+    while (i < allLines.length && allLines[i].trim() === '') i++;
+
+    if (!meta.title) errors.push('Missing "title:" in header.');
+    if (!meta.domain) errors.push('Missing "domain:" in header.');
+    if (!meta.level) errors.push('Missing "level:" in header.');
+
+    const lines = [];
+    for (; i < allLines.length; i++) {
+      const raw = allLines[i];
+      if (raw.trim() === '') continue;
+      const parsed = parseLine(raw, i + 1, errors);
+      if (parsed) lines.push(parsed);
+    }
+
+    if (lines.length === 0) errors.push('No content lines were parsed.');
+
+    const slug = slugify(meta.title || 'untitled');
+    const file = `${slug}.json`;
+
+    const story = {
+      title: meta.title,
+      domain: meta.domain,
+      level: meta.level,
+      image: meta.image || '',
+      lines,
+    };
+
+    const manifestEntry = {
+      title: meta.title,
+      domain: meta.domain,
+      level: meta.level,
+      image: meta.image || '',
+      file,
+    };
+
+    return { story, manifestEntry, errors, file };
+  }
+
+  const sourceEl = document.getElementById('source');
+  const storyOutEl = document.getElementById('story-output');
+  const manifestOutEl = document.getElementById('manifest-output');
+  const errorsEl = document.getElementById('errors');
+  const storyPathEl = document.getElementById('story-path');
+
+  document.getElementById('generate').addEventListener('click', () => {
+    const { story, manifestEntry, errors, file } = parseSource(sourceEl.value);
+    errorsEl.textContent = errors.join('\n');
+    storyOutEl.value = JSON.stringify(story, null, 2);
+    manifestOutEl.value = JSON.stringify(manifestEntry, null, 2) + ',';
+    storyPathEl.textContent = `content/${file}`;
+  });
+
+  document.querySelectorAll('.copy-btn').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const target = document.getElementById(btn.dataset.target);
+      try {
+        await navigator.clipboard.writeText(target.value);
+        const original = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => { btn.textContent = original; }, 1200);
+      } catch (e) {
+        target.select();
+        document.execCommand('copy');
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "entries": [
+    {
+      "title": "Clinical Intake - Chest Pain",
+      "domain": "clinical",
+      "level": "B1",
+      "image": "",
+      "file": "dialogue-test.json"
+    }
+  ]
+}

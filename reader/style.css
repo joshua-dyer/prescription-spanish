@@ -1,0 +1,264 @@
+:root {
+  --bg: #faf8f4;
+  --text: #262521;
+  --muted: #726d64;
+  --card-bg: #ffffff;
+  --border: #e5e1d8;
+  --radius: 14px;
+  --font-ui: -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-read: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+}
+
+[data-domain="clinical"] {
+  --accent: #4a6fa5;
+  --accent-soft: #eaf0f7;
+  --accent-text: #2f4d73;
+}
+
+[data-domain="general"] {
+  --accent: #4a7c59;
+  --accent-soft: #f3ede0;
+  --accent-text: #3c5f43;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-ui);
+}
+
+.app-header {
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.app-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: .01em;
+}
+
+#app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Library */
+
+.library-title {
+  font-size: 1.6rem;
+  margin: 0 0 1.25rem;
+  font-weight: 600;
+}
+
+.filter-bar {
+  display: flex;
+  gap: .5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  font: inherit;
+  font-family: var(--font-ui);
+  font-size: .9rem;
+  padding: .45rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  background: var(--text);
+  color: #fff;
+  border-color: var(--text);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1.25rem;
+}
+
+.card {
+  display: block;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .04);
+  transition: box-shadow .2s ease, transform .2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .08);
+  transform: translateY(-1px);
+}
+
+.card-thumb {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  display: block;
+  background: var(--accent-soft, var(--border));
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.05rem;
+  margin: .4rem 0 .3rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.card-level {
+  font-size: .8rem;
+  color: var(--muted);
+}
+
+.chip {
+  display: inline-block;
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  padding: .2rem .55rem;
+  border-radius: 999px;
+  background: var(--accent-soft, #eee);
+  color: var(--accent-text, var(--muted));
+}
+
+.empty {
+  color: var(--muted);
+  grid-column: 1 / -1;
+}
+
+/* Story */
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1.25rem;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: .9rem;
+}
+
+.back-link:hover { color: var(--text); }
+
+.story-header {
+  margin-bottom: 1.5rem;
+}
+
+.story-title {
+  font-size: 1.7rem;
+  margin: .5rem 0 .3rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.story-level {
+  color: var(--muted);
+  font-size: .9rem;
+  margin-left: .5rem;
+}
+
+.story-image {
+  width: 100%;
+  max-height: 260px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+}
+
+.lines {
+  max-width: 65ch;
+}
+
+.line {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.line:last-child { border-bottom: none; }
+
+.line-spanish {
+  font-family: var(--font-read);
+  font-size: 1.3rem;
+  line-height: 1.8;
+  cursor: pointer;
+}
+
+.speaker {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: .95rem;
+  color: var(--accent-text, var(--muted));
+  margin-right: .5rem;
+}
+
+.line-translation {
+  font-family: var(--font-ui);
+  font-size: 1.05rem;
+  color: var(--muted);
+  margin-top: .6rem;
+  padding-left: .1rem;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.line-translation.visible {
+  opacity: 1;
+}
+
+.word-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.word {
+  font: inherit;
+  font-family: var(--font-read);
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: inherit;
+  border-bottom: 1px dotted var(--accent, var(--muted));
+}
+
+.word-bubble {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 6px);
+  transform: translateX(-50%);
+  background: var(--accent, #333);
+  color: #fff;
+  font-family: var(--font-ui);
+  font-size: .85rem;
+  line-height: 1.4;
+  padding: .35rem .65rem;
+  border-radius: 8px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity .3s ease;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.word-bubble.visible {
+  opacity: 1;
+}
