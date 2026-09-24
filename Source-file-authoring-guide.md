@@ -14,7 +14,7 @@ Every source file has two parts, separated by a line of three dashes (`---`):
 title: Clinical Intake - Chest Pain
 domain: clinical
 level: B1
-image: 
+image: ensure path from root!
 ---
 El paciente tiene {taquicardia|rapid heartbeat} desde ayer. :: The patient has had a rapid heartbeat since yesterday.
 Ana: ¿Desde cuándo tiene estos síntomas? :: Since when have you had these symptoms?
