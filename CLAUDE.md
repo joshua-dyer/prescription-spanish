@@ -80,11 +80,12 @@ leading/trailing punctuation strip. If you change this logic, the same
 transformation is duplicated nowhere else — it's the single source of truth for
 source → JSON conversion.
 
-## `/reader/` app
+## `/index.html` + `/reader/` app
 
 Plain JS, no dependencies. `app.js` does hash-based routing (`#/` = library,
-`#/story/<file>` = story view) fetching `../content/index.json` and
-`../content/<file>.json` directly via `fetch`. Reveal interactions use a
+`#/story/<file>` = story view) fetching `content/index.json` and
+`content/<file>.json` directly via `fetch` (paths are relative to the root
+`index.html`, which sits at the repo root for GitHub Pages). Reveal interactions use a
 `display:none` → `display:block` → next-frame `.visible` class flip so opacity
 can actually transition (a pure CSS rule can't animate from `display:none`).
 

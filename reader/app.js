@@ -1,5 +1,5 @@
 (function () {
-  const CONTENT_BASE = '../content/';
+  const CONTENT_BASE = 'content/';
 
   const appEl = document.getElementById('app');
   let manifestCache = null;
