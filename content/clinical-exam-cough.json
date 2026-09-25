@@ -1,0 +1,662 @@
+{
+  "title": "Clinical Exam - Cough",
+  "domain": "clinical",
+  "level": "A2",
+  "image": "",
+  "lines": [
+    {
+      "speaker": "Médico",
+      "translation": "Good morning. What is wrong?",
+      "words": [
+        {
+          "leading": "",
+          "text": "Buenos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "días",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "¿",
+          "text": "Qué",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "le",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "pasa",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Good morning, doctor. I have had a cough for several days.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Buenos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "días",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "doctor",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Tengo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "desde",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "hace",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "varios",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "días",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Médico",
+      "translation": "Do you have a fever or a sore throat?",
+      "words": [
+        {
+          "leading": "¿",
+          "text": "Tiene",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "fiebre",
+          "trailing": "",
+          "translation": "fever"
+        },
+        {
+          "leading": "",
+          "text": "o",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "dolor de garganta",
+          "trailing": "",
+          "translation": "sore throat"
+        },
+        {
+          "leading": "",
+          "text": "",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "I do not have a fever, but my throat hurts a little.",
+      "words": [
+        {
+          "leading": "",
+          "text": "No",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tengo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "fiebre",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "pero",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "me",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "duele",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "un",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "poco",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "garganta",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Médico",
+      "translation": "Is the cough dry, or do you have mucus?",
+      "words": [
+        {
+          "leading": "¿",
+          "text": "La",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "es",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "seca",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "o",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tiene",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "mucosidad",
+          "trailing": "",
+          "translation": "mucus"
+        },
+        {
+          "leading": "",
+          "text": "",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "It is a dry cough.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Es",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "una",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "seca",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Médico",
+      "translation": "Okay. I am going to listen to your lungs. Please sit down.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Bien",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Voy",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "a",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "escuchar",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "sus",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "pulmones",
+          "trailing": "",
+          "translation": "lungs"
+        },
+        {
+          "leading": "",
+          "text": "",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Siéntese",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "por",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "favor",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Okay.",
+      "words": [
+        {
+          "leading": "",
+          "text": "De",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "acuerdo",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Médico",
+      "translation": "Breathe deeply through your mouth.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Respire",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "profundamente",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "por",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "boca",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Like this?",
+      "words": [
+        {
+          "leading": "¿",
+          "text": "Así",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Médico",
+      "translation": "Yes. Now, inhale, hold your breath, and then exhale slowly.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Sí",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Ahora",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "inhale",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "mantenga",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "respiración",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "y",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "después",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "exhale",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "lentamente",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "All right.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Está",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "bien",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Médico",
+      "translation": "Very good. Now breathe normally.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Muy",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "bien",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Ahora",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "respire",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "normalmente",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Are my lungs okay?",
+      "words": [
+        {
+          "leading": "¿",
+          "text": "Mis",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "pulmones",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "están",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "bien",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Médico",
+      "translation": "Yes, the sounds are normal. Drink plenty of water and rest.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Sí",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "los",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "sonidos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "son",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "normales",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Beba",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "mucha",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "agua",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "y",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "descanse",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Thank you very much, doctor.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Muchas",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "gracias",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "doctor",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    }
+  ]
+}

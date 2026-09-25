@@ -20,6 +20,13 @@
       "level": "A2",
       "image": "",
       "file": "patient-check-in.json"
+    },
+    {
+      "title": "Clinical Exam - Cough",
+      "domain": "clinical",
+      "level": "A2",
+      "image": "",
+      "file": "clinical-exam-cough.json"
     }
   ]
 }

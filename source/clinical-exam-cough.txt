@@ -1,0 +1,22 @@
+title: Clinical Exam - Cough
+domain: clinical
+level: A2
+image: 
+---
+
+Médico: Buenos días. ¿Qué le pasa? :: Good morning. What is wrong?
+Paciente: Buenos días, doctor. Tengo tos desde hace varios días. :: Good morning, doctor. I have had a cough for several days.
+Médico: ¿Tiene {fiebre|fever} o {dolor de garganta|sore throat}? :: Do you have a fever or a sore throat?
+Paciente: No tengo fiebre, pero me duele un poco la garganta. :: I do not have a fever, but my throat hurts a little.
+Médico: ¿La tos es seca o tiene {mucosidad|mucus}? :: Is the cough dry, or do you have mucus?
+Paciente: Es una tos seca. :: It is a dry cough.
+Médico: Bien. Voy a escuchar sus {pulmones|lungs}. Siéntese, por favor. :: Okay. I am going to listen to your lungs. Please sit down.
+Paciente: De acuerdo. :: Okay.
+Médico: Respire profundamente por la boca. :: Breathe deeply through your mouth.
+Paciente: ¿Así? :: Like this?
+Médico: Sí. Ahora, inhale, mantenga la respiración y después exhale lentamente. :: Yes. Now, inhale, hold your breath, and then exhale slowly.
+Paciente: Está bien. :: All right.
+Médico: Muy bien. Ahora respire normalmente. :: Very good. Now breathe normally.
+Paciente: ¿Mis pulmones están bien? :: Are my lungs okay?
+Médico: Sí, los sonidos son normales. Beba mucha agua y descanse. :: Yes, the sounds are normal. Drink plenty of water and rest.
+Paciente: Muchas gracias, doctor. :: Thank you very much, doctor.
