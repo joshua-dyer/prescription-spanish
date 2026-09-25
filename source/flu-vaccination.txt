@@ -1,0 +1,22 @@
+title: Flu Vaccination
+domain: clinical
+level: A2
+image:
+---
+
+Enfermera: Buenos días. ¿Viene para ponerse la {vacuna contra la gripe|flu vaccine}? :: Good morning. Are you here to get the flu vaccine?
+Paciente: Sí, vengo para la vacuna. :: Yes, I am here for the vaccine.
+Enfermera: Muy bien. ¿Tiene alguna {alergia|allergies}? :: Very good. Do you have any allergies?
+Paciente: No, no tengo alergias. :: No, I do not have any allergies.
+Enfermera: ¿Se siente bien hoy? :: Do you feel well today?
+Paciente: Sí, me siento bien. :: Yes, I feel well.
+Enfermera: Perfecto. Siéntese y relaje el brazo, por favor. :: Perfect. Sit down and relax your arm, please.
+Paciente: De acuerdo. :: Okay.
+Enfermera: La inyección puede {picar|sting} y doler un poquito. :: The injection may sting and hurt a little.
+Paciente: Está bien. :: That is okay.
+Enfermera: No mueva el brazo, por favor. :: Please do not move your arm.
+Paciente: Intentaré no moverlo. :: I will try not to move it.
+Enfermera: Muy bien. Ya está. :: Very good. It is done.
+Paciente: ¿Puedo irme ahora? :: Can I leave now?
+Enfermera: Sí. Puede tener un poco de dolor en el brazo durante uno o dos días. :: Yes. Your arm may be a little sore for one or two days.
+Paciente: Muchas gracias. :: Thank you very much.

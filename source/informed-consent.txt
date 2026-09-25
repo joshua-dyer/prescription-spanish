@@ -1,0 +1,14 @@
+title: Informed Consent
+domain: clinical
+level: A2
+image: 
+---
+
+Enfermera: Antes de la {cirugía|surgery}, necesita leer y firmar este formulario de {consentimiento informado|informed consent}. :: Before the surgery, you need to read and sign this informed consent form.
+Paciente: ¿Por qué necesito firmarlo? :: Why do I need to sign it?
+Enfermera: La cirugía es {rutinaria|routine}, pero siempre hay algunos riesgos. :: The surgery is routine, but there are always some risks.
+Paciente: Entiendo. :: I understand.
+Enfermera: Haremos todo lo posible para cuidarla bien. :: We will do everything possible to take good care of you.
+Enfermera: Pero usted debe entender los riesgos y confirmar que los comprende. :: But you must understand the risks and confirm that you understand them.
+Paciente: Leeré el formulario y lo firmaré si lo entiendo. :: I will read the form and sign it if I understand it.
+Enfermera: Muy bien. Si tiene preguntas, puede preguntarme o hablar con el médico. :: Very good. If you have questions, you can ask me or speak with the doctor.

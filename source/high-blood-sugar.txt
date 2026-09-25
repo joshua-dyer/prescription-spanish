@@ -1,0 +1,14 @@
+title: High Blood Sugar
+domain: clinical
+level: A2
+image: 
+---
+
+Médico: Sus niveles de azúcar en la sangre están demasiado altos. :: Your blood sugar levels are too high.
+Paciente: ¿Y cómo está mi hemoglobina A1c? :: And how is my Hemoglobin A1C?
+Médico: También está alta. :: It is also high.
+Paciente: ¿Qué puedo hacer? :: What can I do?
+Médico: Intente comer menos carbohidratos, hacer ejercicio y perder peso. :: Try to eat fewer carbohydrates, exercise, and lose weight.
+Paciente: ¿Necesito tomar medicamentos? :: Do I need to take medication?
+Médico: Si estos cambios no ayudan, es posible que necesite empezar un medicamento para la diabetes. :: If these changes do not help, you may need to start medication for diabetes.
+Paciente: Entiendo, doctor. Lo intentaré. :: I understand, doctor. I will try.

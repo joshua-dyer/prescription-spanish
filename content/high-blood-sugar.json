@@ -1,0 +1,374 @@
+{
+  "title": "High Blood Sugar",
+  "domain": "clinical",
+  "level": "A2",
+  "image": "",
+  "lines": [
+    {
+      "speaker": "Médico",
+      "translation": "Your blood sugar levels are too high.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Sus",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "niveles",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "de",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "azúcar",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "en",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "sangre",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "están",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "demasiado",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "altos",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "And how is my Hemoglobin A1C?",
+      "words": [
+        {
+          "leading": "¿",
+          "text": "Y",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "cómo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "está",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "mi",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "hemoglobina",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "A1c",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Médico",
+      "translation": "It is also high.",
+      "words": [
+        {
+          "leading": "",
+          "text": "También",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "está",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "alta",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "What can I do?",
+      "words": [
+        {
+          "leading": "¿",
+          "text": "Qué",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "puedo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "hacer",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Médico",
+      "translation": "Try to eat fewer carbohydrates, exercise, and lose weight.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Intente",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "comer",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "menos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "carbohidratos",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "hacer",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "ejercicio",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "y",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "perder",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "peso",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Do I need to take medication?",
+      "words": [
+        {
+          "leading": "¿",
+          "text": "Necesito",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tomar",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "medicamentos",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Médico",
+      "translation": "If these changes do not help, you may need to start medication for diabetes.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Si",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "estos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "cambios",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "no",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "ayudan",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "es",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "posible",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "que",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "necesite",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "empezar",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "un",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "medicamento",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "para",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "diabetes",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "I understand, doctor. I will try.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Entiendo",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "doctor",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Lo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "intentaré",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    }
+  ]
+}

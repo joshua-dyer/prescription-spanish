@@ -1,0 +1,350 @@
+{
+  "title": "Medication Refills",
+  "domain": "Clinical",
+  "level": "A2",
+  "image": "",
+  "lines": [
+    {
+      "speaker": "Enfermera",
+      "translation": "Good morning. What is the reason for your visit?",
+      "words": [
+        {
+          "leading": "",
+          "text": "Buenos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "días",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "¿",
+          "text": "Cuál",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "es",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "el",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "motivo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "de",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "su",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "visita",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "I need refills for my high blood pressure and high cholesterol medications.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Necesito",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "renovar",
+          "trailing": "",
+          "translation": "refills"
+        },
+        {
+          "leading": "",
+          "text": "mis",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "medicamentos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "para",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "presión",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "alta",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "y",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "el",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "colesterol",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "alto",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Enfermera",
+      "translation": "Do you have any problems or complaints, or do you only need the medications?",
+      "words": [
+        {
+          "leading": "¿",
+          "text": "Tiene",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "algún",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "problema",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "o",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "alguna",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "queja",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "o",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "solo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "necesita",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "los",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "medicamentos",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "I feel well. I only need the medications.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Me",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "siento",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "bien",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Solo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "necesito",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "los",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "medicamentos",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Enfermera",
+      "translation": "All right. I will request the refills. They will be available tomorrow.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Está",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "bien",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Voy",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "a",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "pedir",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "los",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "resurtidos",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Estarán",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "disponibles",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "mañana",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Thank you very much.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Muchas",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "gracias",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    }
+  ]
+}

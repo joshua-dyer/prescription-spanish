@@ -1,0 +1,926 @@
+{
+  "title": "Chest X-Ray",
+  "domain": "clinical",
+  "level": "B1",
+  "image": "",
+  "lines": [
+    {
+      "speaker": "Técnica",
+      "translation": "Good morning. I am the radiology technician.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Buenos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "días",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Soy",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "técnica de radiología",
+          "trailing": "",
+          "translation": "radiology technician"
+        },
+        {
+          "leading": "",
+          "text": "",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Good morning.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Buenos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "días",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Técnica",
+      "translation": "We are going to take a chest X-ray.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Vamos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "a",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "hacer",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "una",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "radiografía",
+          "trailing": "",
+          "translation": "X-ray"
+        },
+        {
+          "leading": "",
+          "text": "del",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "pecho",
+          "trailing": "",
+          "translation": "chest"
+        },
+        {
+          "leading": "",
+          "text": "",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Okay.",
+      "words": [
+        {
+          "leading": "",
+          "text": "De",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "acuerdo",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Técnica",
+      "translation": "Stand here, please, facing the machine.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Póngase",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "aquí",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "por",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "favor",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "frente",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "a",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "máquina",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Is this okay?",
+      "words": [
+        {
+          "leading": "¿",
+          "text": "Así",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "está",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "bien",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Técnica",
+      "translation": "Yes. Look forward and keep still.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Sí",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Mire",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "hacia",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "delante",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "y",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "quédese",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "quieto",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Técnica",
+      "translation": "Take a deep breath and hold your breath.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Respire profundamente",
+          "trailing": "",
+          "translation": "breath deep"
+        },
+        {
+          "leading": "",
+          "text": "y",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "mantenga",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "respiración",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Okay.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Está",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "bien",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Técnica",
+      "translation": "Do not breathe. I am going to take the X-ray.",
+      "words": [
+        {
+          "leading": "",
+          "text": "No",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "respire",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Voy",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "a",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "hacer",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "radiografía",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Técnica",
+      "translation": "It is done. Now you can breathe.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Ya",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "está",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Ahora",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "puede",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "respirar",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Técnica",
+      "translation": "Now turn to the side, please.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Ahora",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "póngase",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "de",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "lado",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "por",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "favor",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "This side?",
+      "words": [
+        {
+          "leading": "¿",
+          "text": "A",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "este",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "lado",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Técnica",
+      "translation": "Yes. Put your arms like this and keep still.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Sí",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Coloque",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "los",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "brazos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "así",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "y",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "quédese",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "quieto",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Técnica",
+      "translation": "Take a deep breath and hold your breath.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Respire",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "profundamente",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "y",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "mantenga",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "respiración",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Técnica",
+      "translation": "Do not breathe. I am going to take another X-ray.",
+      "words": [
+        {
+          "leading": "",
+          "text": "No",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "respire",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Voy",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "a",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "hacer",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "otra",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "radiografía",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Técnica",
+      "translation": "Very good. You can breathe normally now.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Muy",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "bien",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Ya",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "puede",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "respirar",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "normalmente",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Thank you.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Gracias",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Médico",
+      "translation": "Good morning. I have looked at the X-rays.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Buenos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "días",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "He",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "mirado",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "las",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "radiografías",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "What do they show?",
+      "words": [
+        {
+          "leading": "¿",
+          "text": "Qué",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "muestran",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Médico",
+      "translation": "There may be some pneumonia or fluid in the lungs.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Puede",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "haber",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "un",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "poco",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "de",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "neumonía",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "o",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "líquido",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "en",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "los",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "pulmones",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Is it serious?",
+      "words": [
+        {
+          "leading": "¿",
+          "text": "Es",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "grave",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Médico",
+      "translation": "We are going to treat it with an antibiotic. You also need to rest and drink plenty of water.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Vamos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "a",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tratarlo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "con",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "un",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "antibiótico",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "También",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "necesita",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "descansar",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "y",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "beber",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "mucha",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "agua",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Okay, doctor.",
+      "words": [
+        {
+          "leading": "",
+          "text": "De",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "acuerdo",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "doctor",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    }
+  ]
+}

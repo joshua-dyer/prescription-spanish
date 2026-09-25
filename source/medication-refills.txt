@@ -1,0 +1,12 @@
+title: Medication Refills
+domain: Clinical
+level: A2
+image: 
+---
+
+Enfermera: Buenos días. ¿Cuál es el motivo de su visita? :: Good morning. What is the reason for your visit?
+Paciente: Necesito {renovar|refills} mis medicamentos para la presión alta y el colesterol alto. :: I need refills for my high blood pressure and high cholesterol medications.
+Enfermera: ¿Tiene algún problema o alguna queja, o solo necesita los medicamentos? :: Do you have any problems or complaints, or do you only need the medications?
+Paciente: Me siento bien. Solo necesito los medicamentos. :: I feel well. I only need the medications.
+Enfermera: Está bien. Voy a pedir los resurtidos. Estarán disponibles mañana. :: All right. I will request the refills. They will be available tomorrow.
+Paciente: Muchas gracias. :: Thank you very much.

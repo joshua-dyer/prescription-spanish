@@ -1,0 +1,30 @@
+title: Chest X-Ray
+domain: clinical
+level: B1
+image: 
+---
+
+Técnica: Buenos días. Soy la {técnica de radiología|radiology technician}. :: Good morning. I am the radiology technician.
+Paciente: Buenos días. :: Good morning.
+Técnica: Vamos a hacer una {radiografía|X-ray} del {pecho|chest}. :: We are going to take a chest X-ray.
+Paciente: De acuerdo. :: Okay.
+Técnica: Póngase aquí, por favor, frente a la máquina. :: Stand here, please, facing the machine.
+Paciente: ¿Así está bien? :: Is this okay?
+Técnica: Sí. Mire hacia delante y quédese quieto. :: Yes. Look forward and keep still.
+Técnica: {Respire profundamente|breath deep} y mantenga la respiración. :: Take a deep breath and hold your breath.
+Paciente: Está bien. :: Okay.
+Técnica: No respire. Voy a hacer la radiografía. :: Do not breathe. I am going to take the X-ray.
+Técnica: Ya está. Ahora puede respirar. :: It is done. Now you can breathe.
+Técnica: Ahora póngase de lado, por favor. :: Now turn to the side, please.
+Paciente: ¿A este lado? :: This side?
+Técnica: Sí. Coloque los brazos así y quédese quieto. :: Yes. Put your arms like this and keep still.
+Técnica: Respire profundamente y mantenga la respiración. :: Take a deep breath and hold your breath.
+Técnica: No respire. Voy a hacer otra radiografía. :: Do not breathe. I am going to take another X-ray.
+Técnica: Muy bien. Ya puede respirar normalmente. :: Very good. You can breathe normally now.
+Paciente: Gracias. :: Thank you.
+Médico: Buenos días. He mirado las radiografías. :: Good morning. I have looked at the X-rays.
+Paciente: ¿Qué muestran? :: What do they show?
+Médico: Puede haber un poco de neumonía o líquido en los pulmones. :: There may be some pneumonia or fluid in the lungs.
+Paciente: ¿Es grave? :: Is it serious?
+Médico: Vamos a tratarlo con un antibiótico. También necesita descansar y beber mucha agua. :: We are going to treat it with an antibiotic. You also need to rest and drink plenty of water.
+Paciente: De acuerdo, doctor. :: Okay, doctor.

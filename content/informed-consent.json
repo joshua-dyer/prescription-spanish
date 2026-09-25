@@ -1,0 +1,464 @@
+{
+  "title": "Informed Consent",
+  "domain": "clinical",
+  "level": "A2",
+  "image": "",
+  "lines": [
+    {
+      "speaker": "Enfermera",
+      "translation": "Before the surgery, you need to read and sign this informed consent form.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Antes",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "de",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "cirugía",
+          "trailing": "",
+          "translation": "surgery"
+        },
+        {
+          "leading": "",
+          "text": "",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "necesita",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "leer",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "y",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "firmar",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "este",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "formulario",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "de",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "consentimiento informado",
+          "trailing": "",
+          "translation": "informed consent"
+        },
+        {
+          "leading": "",
+          "text": "",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Why do I need to sign it?",
+      "words": [
+        {
+          "leading": "¿",
+          "text": "Por",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "qué",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "necesito",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "firmarlo",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Enfermera",
+      "translation": "The surgery is routine, but there are always some risks.",
+      "words": [
+        {
+          "leading": "",
+          "text": "La",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "cirugía",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "es",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "rutinaria",
+          "trailing": "",
+          "translation": "routine"
+        },
+        {
+          "leading": "",
+          "text": "",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "pero",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "siempre",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "hay",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "algunos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "riesgos",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "I understand.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Entiendo",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Enfermera",
+      "translation": "We will do everything possible to take good care of you.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Haremos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "todo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "lo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "posible",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "para",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "cuidarla",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "bien",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Enfermera",
+      "translation": "But you must understand the risks and confirm that you understand them.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Pero",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "usted",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "debe",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "entender",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "los",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "riesgos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "y",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "confirmar",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "que",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "los",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "comprende",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "I will read the form and sign it if I understand it.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Leeré",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "el",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "formulario",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "y",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "lo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "firmaré",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "si",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "lo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "entiendo",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Enfermera",
+      "translation": "Very good. If you have questions, you can ask me or speak with the doctor.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Muy",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "bien",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Si",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tiene",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "preguntas",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "puede",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "preguntarme",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "o",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "hablar",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "con",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "el",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "médico",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    }
+  ]
+}

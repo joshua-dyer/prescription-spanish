@@ -1,13 +1,6 @@
 {
   "entries": [
     {
-      "title": "Clinical Intake - Chest Pain",
-      "domain": "clinical",
-      "level": "B1",
-      "image": "",
-      "file": "dialogue-test.json"
-    },
-    {
       "title": "Clinical Intake - Leg Pain",
       "domain": "clinical",
       "level": "B1",
@@ -27,6 +20,41 @@
       "level": "A2",
       "image": "",
       "file": "clinical-exam-cough.json"
+    },
+    {
+      "title": "Flu Vaccination",
+      "domain": "clinical",
+      "level": "A2",
+      "image": "",
+      "file": "flu-vaccination.json"
+    },
+    {
+      "title": "Chest X-Ray",
+      "domain": "clinical",
+      "level": "B1",
+      "image": "",
+      "file": "chest-x-ray.json"
+    },
+    {
+      "title": "High Blood Sugar",
+      "domain": "clinical",
+      "level": "A2",
+      "image": "",
+      "file": "high-blood-sugar.json"
+    },
+    {
+      "title": "Medication Refills",
+      "domain": "Clinical",
+      "level": "A2",
+      "image": "",
+      "file": "medication-refills.json"
+    },
+    {
+      "title": "Informed Consent",
+      "domain": "clinical",
+      "level": "A2",
+      "image": "",
+      "file": "informed-consent.json"
     }
   ]
 }

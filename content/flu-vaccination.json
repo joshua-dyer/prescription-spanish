@@ -1,0 +1,608 @@
+{
+  "title": "Flu Vaccination",
+  "domain": "clinical",
+  "level": "A2",
+  "image": "",
+  "lines": [
+    {
+      "speaker": "Enfermera",
+      "translation": "Good morning. Are you here to get the flu vaccine?",
+      "words": [
+        {
+          "leading": "",
+          "text": "Buenos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "días",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "¿",
+          "text": "Viene",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "para",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "ponerse",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "vacuna contra la gripe",
+          "trailing": "",
+          "translation": "flu vaccine"
+        },
+        {
+          "leading": "",
+          "text": "",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Yes, I am here for the vaccine.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Sí",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "vengo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "para",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "la",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "vacuna",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Enfermera",
+      "translation": "Very good. Do you have any allergies?",
+      "words": [
+        {
+          "leading": "",
+          "text": "Muy",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "bien",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "¿",
+          "text": "Tiene",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "alguna",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "alergia",
+          "trailing": "",
+          "translation": "allergies"
+        },
+        {
+          "leading": "",
+          "text": "",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "No, I do not have any allergies.",
+      "words": [
+        {
+          "leading": "",
+          "text": "No",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "no",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tengo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "alergias",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Enfermera",
+      "translation": "Do you feel well today?",
+      "words": [
+        {
+          "leading": "¿",
+          "text": "Se",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "siente",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "bien",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "hoy",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Yes, I feel well.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Sí",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "me",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "siento",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "bien",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Enfermera",
+      "translation": "Perfect. Sit down and relax your arm, please.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Perfecto",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Siéntese",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "y",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "relaje",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "el",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "brazo",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "por",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "favor",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Okay.",
+      "words": [
+        {
+          "leading": "",
+          "text": "De",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "acuerdo",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Enfermera",
+      "translation": "The injection may sting and hurt a little.",
+      "words": [
+        {
+          "leading": "",
+          "text": "La",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "inyección",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "puede",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "picar",
+          "trailing": "",
+          "translation": "sting"
+        },
+        {
+          "leading": "",
+          "text": "y",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "doler",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "un",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "poquito",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "That is okay.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Está",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "bien",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Enfermera",
+      "translation": "Please do not move your arm.",
+      "words": [
+        {
+          "leading": "",
+          "text": "No",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "mueva",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "el",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "brazo",
+          "trailing": ",",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "por",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "favor",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "I will try not to move it.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Intentaré",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "no",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "moverlo",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Enfermera",
+      "translation": "Very good. It is done.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Muy",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "bien",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Ya",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "está",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Can I leave now?",
+      "words": [
+        {
+          "leading": "¿",
+          "text": "Puedo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "irme",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "ahora",
+          "trailing": "?",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Enfermera",
+      "translation": "Yes. Your arm may be a little sore for one or two days.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Sí",
+          "trailing": ".",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "Puede",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "tener",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "un",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "poco",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "de",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "dolor",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "en",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "el",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "brazo",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "durante",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "uno",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "o",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "dos",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "días",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "speaker": "Paciente",
+      "translation": "Thank you very much.",
+      "words": [
+        {
+          "leading": "",
+          "text": "Muchas",
+          "trailing": "",
+          "translation": null
+        },
+        {
+          "leading": "",
+          "text": "gracias",
+          "trailing": ".",
+          "translation": null
+        }
+      ]
+    }
+  ]
+}
